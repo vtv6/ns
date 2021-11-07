@@ -3,7 +3,7 @@ name: 'Migrate database schema - production'
 on:
     push:
         branches:
-            - main
+            - master
 
 jobs:
     migrate-database:
